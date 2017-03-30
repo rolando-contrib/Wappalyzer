@@ -8981,7 +8981,7 @@
 			"cats": [
 				"6"
 			],
-			"html": "<form name=\"product\" method=\"post\" action=\"[^\"]+\\?do=addtocart&prodid=\\d+\"(?!<\\/form>.)+<input type=\"hidden\" name=\"addtocart\" value=\"\\d+\">",
+			"html": "<form name=\"product\" method=\"post\" action=\"[^\"]+\\?do=addtocart&prodid=\\d+\"(?:[^/form>])+<input type=\"hidden\" name=\"addtocart\" value=\"\\d+\">",
 			"icon": "Zeuscart.png",
 			"implies": "PHP",
 			"url": "\\?do=prodetail&action=show&prodid=\\d+",
